@@ -4,6 +4,7 @@
     <locale android:name="eo"/>
     <locale android:name="fi"/>
     <locale android:name="fr"/>
+    <locale android:name="uk"/>
     <locale android:name="zh-Hans-MO"/>
     <locale android:name="zh-Hant-MO"/>
 </locale-config>

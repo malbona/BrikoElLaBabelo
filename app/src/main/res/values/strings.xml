@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Parrot</string>
+    <string name="app_name" translatable="true">Papago</string>
+    <string name="language" translatable="true">Esperanto</string>
+    <string name="en" translatable="false">English</string>
+    <string name="fr" translatable="false">Français</string>
+    <string name="eo" translatable="false">Esperanto</string>
+    <string name="uk" translatable="false">Українська</string>
+    <string name="fi" translatable="false">Suomi</string>
+    <string name="zh" translatable="false">中文</string>
+    <string name="ji" translatable="false">שפּראַך</string>
+    <string name="iw" translatable="false">פּאַפּוגייַ</string>
 </resources>
