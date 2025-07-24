@@ -1,12 +1,18 @@
 <resources>
     <string name="app_name" translatable="true">Papago</string>
     <string name="language" translatable="true">Esperanto</string>
-    <string name="en" translatable="false">English</string>
-    <string name="fr" translatable="false">Français</string>
-    <string name="eo" translatable="false">Esperanto</string>
-    <string name="uk" translatable="false">Українська</string>
-    <string name="fi" translatable="false">Suomi</string>
-    <string name="zh" translatable="false">中文</string>
-    <string name="ji" translatable="false">שפּראַך</string>
-    <string name="iw" translatable="false">פּאַפּוגייַ</string>
+    <string name="en_code" translatable="false">en</string>
+    <string name="en_name" translatable="false">English</string>
+    <string name="fr_code" translatable="false">fr</string>
+    <string name="fr_name" translatable="false">Français</string>
+    <string name="eo_code" translatable="false">eo</string>
+    <string name="eo_name" translatable="false">Esperanto</string>
+    <string name="uk_code" translatable="false">uk</string>
+    <string name="uk_name" translatable="false">Українська</string>
+    <string name="fi_code" translatable="false">fi</string>
+    <string name="fi_name" translatable="false">Suomi</string>
+    <string name="zh_Hans_code" translatable="false">zh-Hans</string>
+    <string name="zh_Hans_name" translatable="false">简体中文</string>
+    <string name="zh_Hant_code" translatable="false">zh-Hant</string>
+    <string name="zh_Hant_name" translatable="false">繁體中文</string>
 </resources>

@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'eo.brikoellababelo'
-    compileSdk 33
+    compileSdkPreview = "UpsideDownCake"
 
     defaultConfig {
         applicationId "eo.brikoellababelo"
         minSdk 33
-        targetSdk 33
+        targetSdkPreview = "UpsideDownCake"
         versionCode 1
         versionName "1.0"
 
@@ -18,7 +18,7 @@ android {
         vectorDrawables {
             useSupportLibrary true
         }
-        resConfigs "en", "eo", "fi", "fr", "uk", "zh"
+        resourceConfigurations = ["en", "eo", "fi", "fr", "uk", "b+zh+Hans", "b+zh+Hant"]
     }
 
     buildTypes {
