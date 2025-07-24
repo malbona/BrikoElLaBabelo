@@ -6,16 +6,20 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.tooling.preview.Preview
+import eo.brikoellababelo.ui.content.Greeting
 import eo.brikoellababelo.ui.theme.BrikoElLaBabeloTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+//        val config = resources.configuration
+//        val lang = "zh" // your language code
+//        val locale = Locale(lang)
+//        Locale.setDefault(locale)
+//        config.setLocale(locale)
+//        resources.updateConfiguration(config, resources.displayMetrics)
         setContent {
             BrikoElLaBabeloTheme {
                 // A surface container using the 'background' color from the theme
@@ -27,18 +31,5 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    BrikoElLaBabeloTheme {
-        Greeting("Android")
     }
 }

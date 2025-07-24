@@ -9,6 +9,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.BrikoElLaBabelo"
+        android:localeConfig="@xml/locales_config"
         >
         <activity
             android:name=".MainActivity"
