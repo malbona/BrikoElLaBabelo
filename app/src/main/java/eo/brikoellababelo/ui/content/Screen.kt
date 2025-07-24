@@ -9,6 +9,7 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExposedDropdownMenuBox
 import androidx.compose.material3.ExposedDropdownMenuDefaults.TrailingIcon
 import androidx.compose.material3.MaterialTheme.typography
+import androidx.compose.material3.MenuAnchorType
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
@@ -52,7 +53,7 @@ fun Slogan() {
     )
 }
 
-@ExperimentalMaterial3Api
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LocaleDropdownMenu() {
     val localeOptions = mapOf(
@@ -73,7 +74,7 @@ fun LocaleDropdownMenu() {
         TextField(
             modifier = Modifier
                 .fillMaxWidth()
-                .menuAnchor(),
+                .menuAnchor(MenuAnchorType.PrimaryNotEditable, true),
             readOnly = true,
             value = stringResource(R.string.language),
             onValueChange = { },
