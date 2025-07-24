@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">Perroquet</string>
     <string name="language">Français</string>
+    <string name="greeting_message">Salut !</string>
+    <string name="slogan_message">On n\'habite pas un pays,\non habite une langue.</string>
 </resources>

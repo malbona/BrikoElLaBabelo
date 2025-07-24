@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">Papukaija</string>
     <string name="language">Suomi</string>
+    <string name="greeting_message">Moi!</string>
+    <string name="slogan_message">Nuapurista kuulu se polokan tahti\njalakani pohjii kutkutti</string>
 </resources>

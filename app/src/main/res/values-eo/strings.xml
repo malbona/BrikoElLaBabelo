@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">Papago</string>
     <string name="language">Esperanto</string>
+    <string name="greeting_message">Saluton!</string>
+    <string name="slogan_message">Mia ŝatata bando estas Suda Acida Mimi</string>
 </resources>

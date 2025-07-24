@@ -4,14 +4,18 @@ import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
 import eo.brikoellababelo.ui.content.Greeting
 import eo.brikoellababelo.ui.content.LocaleDropdownMenu
+import eo.brikoellababelo.ui.content.Picture
+import eo.brikoellababelo.ui.content.Slogan
 import eo.brikoellababelo.ui.theme.BrikoElLaBabeloTheme
 
 class MainActivity : AppCompatActivity() {
@@ -21,14 +25,21 @@ class MainActivity : AppCompatActivity() {
 
         setContent {
             BrikoElLaBabeloTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Column {
+                    Column(Modifier.fillMaxSize()) {
                         LocaleDropdownMenu()
-                        Greeting(stringResource(id = R.string.app_name))
+                        Greeting()
+                        Picture(
+                            Modifier
+                                .weight(1.3F)
+                                .fillMaxSize()
+                                .padding(all = 25.dp)
+                        )
+                        Spacer(Modifier.weight(1F))
+                        Slogan()
                     }
                 }
             }

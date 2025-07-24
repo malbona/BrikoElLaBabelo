@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">鸚鵡</string>
     <string name="language">繁體中文</string>
+    <string name="greeting_message">你好！</string>
+    <string name="slogan_message">每一次閉上了眼就想到了你\n你像一句美麗的口號揮不去</string>
 </resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">طوطی</string>
+    <string name="language">فارسی</string>
+    <string name="greeting_message">سلام!</string>
+    <string name="slogan_message">زن، زندگی، آزادی!</string>
+</resources>

@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">Parrot</string>
     <string name="language">English</string>
+    <string name="greeting_message">Hello!</string>
+    <string name="slogan_message">Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world</string>
 </resources>
